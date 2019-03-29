@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Document Library| ATCodechallenge</title>
+  <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
+  <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+  <link href='https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,400italic,300italic,300|Raleway:300,400,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- =======================================================
+    Theme Name: Maundy
+    Theme URL: https://bootstrapmade.com/document-library-atcodechallenge/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+  <div class="content">
+    <div class="container wow fadeInUp delay-03s">
+      <div class="row">
+        <div class="logo text-center">
+          <img src="img/logo.jpg" alt="logo" width="150">
+          <h2> Document Library<h2>
+        </div>
+
+        <h2 class="subs-title text-center">Type the letter "a" in the search box below</h2>
+
+        
+      </div>
+    </div>
+    
+
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 text-center">
+            <div class="about-title">
+              <h2>Document List</h2>
+
+                     <form class="form-inline">
+  
+  <input class="form-control form-control-sm ml-3 w-75"  id="myInput" type="text" onkeyup="myFunction()" placeholder="Search" aria-label="Search">
+</form>
+
+
+   
+<!--<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.."> -->
+
+<ul id="myUL">
+  <li><a href="https://formswift.com/free-legal-forms">30 60 90 day plan</a></li>
+  <li><a href="https://formswift.com/free-legal-forms">1099 s</a></li>
+
+  <li><a href="https://formswift.com/free-legal-forms"> Book</a></li>
+  <li><a href="https://formswift.com/free-legal-forms"> Codechallenge</a></li>
+
+  <li><a href="https://formswift.com/free-legal-forms"> Born a Crime</a></li>
+  <li><a href="https://formswift.com/free-legal-forms"> Faith</a></li>
+  <li><a href="https://formswift.com/free-legal-forms">Lounge </a></li>
+</ul> 
+            </div>
+            
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+    </section>
+    <div id="contact-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="contact-title">
+              <i class="fa fa-envelope"></i>
+              <h2>Get in touch</h2>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="row bort">
+
+        <div class="copyright">
+          © Document Library. All rights reserved.
+          <div class="credits">
+            <!--
+              All the links in the footer should remain intact. 
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Maundy
+            -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+
+</html>
